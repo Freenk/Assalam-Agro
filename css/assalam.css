@@ -1,0 +1,1198 @@
+@font-face {
+    font-family: Roboto;
+    src:url(../fonts/Roboto/RobotoCondensed-Regular.woff);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.mini-cards-btns {
+    background: #0E344B;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding:3px 45px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    font-size: 14px;
+}
+
+.fonts__lorem {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.instruction-exit-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+
+.big-card-fonts__silver {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mini-cards-text-h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 8px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/* main-instruction Section ----------------------------------------------*/
+
+
+
+.main-instruction {
+    padding:15px 0px;
+}
+
+.main-instruction>div {
+    padding:5px;
+}
+
+
+section>div {
+    display: inline-block;
+}
+
+.instruction-exit h1 {
+    display: inline-block;
+}
+
+
+.exit__sector {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.exit__button {
+    padding:5px;
+    padding-right:20px;
+    border:none;
+    background-color: rgb(255,255,255);
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.exit-text__h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    font-size: 15px;
+}
+
+
+
+
+.exit__button i{
+    display: inline-block;
+    font-size: 18px;
+    color:#0E344B;
+}
+
+
+.home__button {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding:5px 5px;
+    border:none;
+    cursor:pointer;
+}
+
+.home__button i {
+    display: inline-block;
+    font-size: 18px;
+    color:#0E344B;
+}
+
+.right-icon i {
+    display: inline-block;
+    font-size: 18px;
+    color:#0E344B;
+}
+
+.instruction-right {
+    margin-left:5px;
+}
+
+.instruction-right__h1 a h1 {
+    font-size: 15px;
+    text-decoration: none ;
+}
+
+.instruction-right__h1 a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*Dropdown Section ----------------------------------------------*/
+
+
+
+.dropdown-list {
+    display: inline-block;
+    background-color: rgb(255,255,255);
+    color: #0E344B;
+    padding:5px 15px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.dropdown {
+    display: inline-block;
+    margin-top:10px;
+}
+  
+.dropdown-content {
+    display: none;
+    position:absolute;
+    z-index:1;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+
+}
+  
+.dropdown-content a {
+    color: #0E344B;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-sector__text {
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      text-align: center;
+}
+
+
+.dropdown-sector__text> h1 {
+    font-size: 25px;
+}
+  
+
+
+
+
+
+
+
+/* Big Card Section ----------------------------------------------*/
+
+.big-card {
+   padding:50px 15px;
+
+}
+
+.big-card-fonts__black {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.big-card__left {
+    padding-top:25px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+    
+}
+  
+  .big-card__star i, .big-card__star a, .big-card-star-text__h3{
+    display: inline-block;
+}
+
+.big-card__star i {
+    font-size:16px;
+    color:rgb(242,201,76);
+}
+
+.big-card-star-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line:underline;
+}
+
+
+.big-card-star-text__h2 {
+    color:rgb(33,150,83);
+    font-size: 14px;
+    line-height: 16px;
+    margin-left:10px;
+    text-decoration-line:underline;
+    
+}
+
+.big-card-star-text__h3 {
+    text-decoration-line:underline;
+}
+
+.big-card-vendor__items {
+    display: inline-block;
+    margin-top:35px;
+}
+
+.big-card-vendor__button {
+    padding:4px 8px;
+    border: 1px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: rgb(255,255,255);
+} 
+
+.big-card-vendor__h1 {
+    display: inline-block;
+    padding-left:11px;
+}
+
+.big-card__leaf {
+    display: inline-block;
+    padding-left:11px;
+    margin-top: 45px;
+}
+
+.big-card__leaf i {
+    font-size: 35px;
+    color: #0E344B;
+}
+
+.big-card-leaf__h1 {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.big-card__award {
+    padding-left:11px;
+    margin-top: 28px;
+}
+
+.big-card__award i {
+    font-size: 38px;
+    color: #0E344B;
+    padding-left:5px;
+}
+
+.big-card-award__h1 {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.big-card__box {
+    margin-left:11px;
+    padding-top: 28px;
+}
+
+.big-card__box i {
+    font-size: 32px;
+    color: #0E344B;
+    padding-left:0px;
+}
+
+.big-card-box__h1 {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.big-card__money {
+    padding-left:11px;
+    margin-top: 28px;
+}
+
+.big-card__money i{
+    font-size: 32px;
+    color: #0E344B;
+    padding-left:1px;
+}
+
+.big-card-money__h1 {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.big-card__store {
+    padding-left:11px;
+    margin-top: 28px;
+}
+
+.big-card__store i {
+    font-size: 31px;
+    color: #0E344B;
+    padding-left:0px;
+}
+
+.big-card-store__h1 {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.big-card__center{
+    display: inline-block;
+    
+}
+
+.big-card-center__image img {
+    width: 100%;
+    height:auto;
+    
+}
+
+.big-card__right {
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+    
+}
+
+.big-card__right .big-card-right__icon {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.big-card__right i , .big-card-right-icon__h1 {
+    display: inline-block;
+}
+
+.big-card__right i {
+    font-size: 28px;
+    color: #0E344B;
+}
+
+.big-card-right-icon__h1 {
+    padding-left:15px;
+}
+
+.big-card-right__fonts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #0E344B;
+}
+
+.big-card-right__numbers h1 {
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: 110px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 82px;
+    color: #0E344B;
+}
+
+.big-card-right__numbers h2 {
+    display: inline-block;
+    padding-left:10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27.1156px;
+    line-height: 32px;
+    color: #0E344B;
+}
+
+.big-card-right__button {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.big-card-right__button button {
+    background: #0E344B;
+    border:none;
+    cursor:pointer;
+    border-radius: 13px;
+    padding:0.8em 8em;
+    
+}
+
+.big-card-right__button button:hover{
+    background-color:#024a77 ;
+}
+
+.big-card-right__button button h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.big-card-right__plus .big-card-right__minus,.big-card-right__add div {
+    display: inline-block;
+    padding:10px;
+    
+}
+
+.big-card-right__plus {
+    font-size: 30px;
+    border:none;
+    padding:0%;
+    background-color: rgb(255,255,255);
+    cursor:pointer;
+}
+
+.big-card-right__add {
+    text-align: center;
+    margin-top:15px;
+}
+
+.big-card-right-add__button h1{
+    border: 1px solid #BEBEBE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding:2px 10px;
+    font-size: 34px;
+}
+
+.big-card-right-add__button {
+    font-size: 31px;
+}
+
+.big-card-right__minus {
+    font-size: 28px;
+    border:none;
+    padding:0%;
+    background-color: rgb(255,255,255);
+    cursor:pointer;
+}
+
+
+.col>div {
+    margin-top:39px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.corusel-mini__image a {
+    text-decoration: none;
+    align-content:center ;
+}
+
+.corusel-mini__image a i{
+    font-size: 35px;
+    align-content: center;
+    margin-top: 65px;
+    color:#0E344B;
+}
+
+.corusel-mini__image a {
+   text-decoration: none;
+   align-content:center ;
+
+}
+
+.corusel-mini__image>img {
+    padding:15px;
+}
+
+
+
+
+
+/* Mini  Cards Section ----------------------------------------------*/
+
+
+
+
+
+.mini-card {
+    margin-top: 50px;
+}
+
+
+.mini-cards__1 {
+    position: relative;
+    z-index:100; 
+    margin-top:30px;
+}
+
+.mini-cards__2 {
+    margin-top: 30px;
+}
+
+.container-image {
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+}
+
+.mini-cards-pomidore__item {
+    padding-bottom:30px;
+}
+
+.container-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+  
+.mini-cards-pomidore__item-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.mini-card-pomidore__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .8s ease;
+}
+  
+.container-image:hover .mini-card-pomidore__info {
+    height: 65%;
+}
+
+
+.mini-cards-pomidore-info__item .instruction-exit-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding:14px 16px;
+}
+
+.mini-cards-pomidore-info__item .mini-card-pomidore__icon {
+    padding:12px 16px;
+    color: #0E344B;
+    display: inline-block;
+}
+
+.mini-cards-pomidore-info__item .mini-cards-pomidore-item__h3 {
+    display: inline-block;
+    font-size: 11px;
+}
+
+.mini-cards-pomidore-info__item .mini-card-text__button {
+    display: inline-block;
+    padding: 14px 15px;
+
+}
+
+.mini-cards-pomidore-info__item .mini-card-text__button .mini-cards-buton {
+    padding:4px 45px;
+    background: #0E344B;
+    border-radius: 8px;
+    cursor: pointer;
+    border:none;
+
+}
+
+.mini-cards-pomidore-info__item .mini-card-text__button .mini-cards-buton:hover {
+    background: #224f6b;
+}
+
+
+.mini-cards-pomidore-info__item .mini-card-text__button .mini-cards-buton h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6087px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+
+.mini-cards-pomidore-info__item .mini-cards-pomidore-item__h2 {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.5211px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.mini-cards-pomidore-info__item .mini-cards-pomidore-item__h4 {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.413px;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+/* Reference Info  ----------------------------------------------*/
+
+
+
+
+.reference-items {
+    margin-top:39px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+    padding:44px 38px;
+}
+
+.reference-items h2 {
+    margin-top: 27px;
+    color: #FF0A0A;
+}
+
+.reference-items p {
+    margin-top: 57px;
+}
+
+
+
+
+
+
+/* Coment-Like Section ----------------------------------------------*/
+
+
+
+
+.coment-like__items {
+    padding:50px 30px;
+    margin-top:30px;
+}
+
+.coment-like__coment-text h1 {
+    margin-top: 30px;
+}
+
+.coment-like__coment-text textarea {
+    margin-top: 37px;
+    
+    width: 100%;
+    border:none;
+    outline: 0;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+}
+
+.coment-like__icon-button {
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.coment-like__icon-button>div {
+    display: inline-block;
+    margin:20px;
+}
+
+.coment-like-coment__icone>button {
+    border:none;
+    cursor: pointer;
+    
+}
+
+
+.coment-like-coment__button>button {
+    padding:5px 50px;
+    border: none;
+    cursor: pointer;
+    background: #0E344B;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+    display: flex;
+    text-align: right;
+}
+
+.coment-like-coment__button>button h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.coment-like__buton1 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding:10px 37px;
+    margin-top: 19px;
+    border:none;
+    cursor: pointer;
+}
+
+.coment-like__buton2 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding:10px 37px;
+    margin-top: 19px;
+    border:none;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.coment-like__buton1 h2 {
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.coment-like__buton2 h3 {
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.thought-chat {
+    margin-top: 50px;
+    display: flex;
+}
+
+.thought-chat__coment h1 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.thought-chat__data {
+    margin-left:120px;
+
+}
+
+.thought-chat__data div {
+    display: inline-block;
+    margin:15px;
+}
+
+.thought-chat__data>button {
+    border:none;
+    cursor: pointer;
+    background: #FFFFFF;
+     
+}
+.thought-chat__data button h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.thought-chat__data h3 {
+    margin-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.coment-like__subtitel>h1 {
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.coment-like__subtitel .coment-like__coment h1 {
+    margin-top: 12px;
+
+}
+
+.coment-like__coment {
+    display: block;
+}
+
+.coment-like__clients.coment-like__like h5.coment-like__doslike h6 {
+    display: inline-block;
+}
+
+.coment-like__like-dos {
+    margin-top:28px;
+}
+
+.coment-like__like-dos>div {
+    display: inline-block;
+    
+}
+
+.coment-like__like button {
+    border:none;
+    cursor: pointer;
+    background:#FFFFFF;
+}
+
+.coment-like__like h5 {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+
+.coment-like__doslike h6  {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.coment-like__doslike h2  {
+    display: inline-block;
+    margin-left: 99px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.coment-like__doslike {
+    padding-left:73px;
+}
+
+.coment-like__doslike button {
+    border:none;
+    cursor: pointer;
+    background:#FFFFFF;
+}
+
+.coment-like__doslike h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    
+
+}
+
+.coment-like__doslike>img {
+    font-size: 35px;
+    color:#0E344B;
+}
+
+/* .coment-like__subtitel textarea {
+    margin-top:15px;
+    border:none;
+    outline: 0;
+    width: 100%;
+    height: 111px;
+} */
+
+.coment-like__pogination ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 157px;
+}
+
+
+
+
+
+
+
+
+/* Pogination Section ----------------------------------------------*/
+
+
+
+
+.pagination li {
+    display: inline-block;
+    padding:10px 20px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.24);
+    margin:5px;
+    color:#0E344B;
+    cursor:pointer;
+}
+
+.pagination li:hover {
+    background-color:#0E344B;
+    color:#FFFFFF;
+}
+
+.pagination li:hover a {
+    color:#FFFFFF;
+}
+
+.navbar__center a:hover,.navbar__center a:active {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(88, 63, 164, 0.25);
+    border-radius: 10px;
+    color:rgba(98, 54, 149, 1)
+}
+
+.page-item a:active {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(88, 63, 164, 0.25);
+    border-radius: 10px;
+    color:rgba(98, 54, 149, 1)
+}
+
+.pagination li a {
+  text-decoration: none;
+  color:#0E344B;
+}
+
+
+
+
+
+
+
+/* Video Section ----------------------------------------------*/
+
+
+
+
+.video-section {
+    margin-top: 90px;
+
+}
+
+.video-section h1 {
+    margin-left:20px;
+
+}
+.video-item video {
+    display: block;
+    margin-top:41px;
+    width: 100%;
+    height:auto;
+    justify-content: center;
+}
+
+
+
+/*====================== Register Section ======================*/
+
+
+.register {
+    margin-top: 70px;
+    position: relative;
+}
+
+.register .register__h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #0E344B;
+}
+
+.register .register-border {
+    margin-top: 30px;
+}
+
+.register .register-block {
+    padding:100px 70px; 
+}
+
+.register .register-div-1 {
+    background: #FFFFFF;
+    border-radius:67px 0px 0px 66px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    
+}
+
+.register .register-block .rigister-name  {
+    padding:15px;
+}
+
+.register .register-block .rigister-name input {
+    border-radius:50px;
+    border:none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    outline: 0;
+    padding:10px;
+    padding-right:100%;
+}
+
+.register .register-block .register-button-brother {
+    padding-left:20px;
+      
+    
+}
+
+
+
+.register .register-block .register-button-brother .register-button-1 {
+    margin-top:30px;
+    font-size:14px;
+    line-height:30px;
+    letter-spacing:0.05em;
+    border-radius:7px;
+    border:none;
+    cursor:pointer;
+    margin:10px;
+}
+
+.register .register-block .register-button-brother h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.register .register-block .register-button-brother button {
+    padding:5px 100px;
+}
+
+.register .register-block .register-button-brother .register-button-2 {
+    background: #0E344B;
+    color:#FFFFFF;
+}
+
+.register .register-block .register-button-brother .register-button-3 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    color:#0E344B;
+}
+
+.register .register-block .register-plus {
+    padding-left:10px;
+}
+
+.register .register-block .register-plus button{
+    display: inline-block;
+    border:none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    cursor:pointer;
+    margin-top: 20px;
+    padding:20px 40px;
+    font-size: 50px;  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: #0E344B;
+}
+
+.register .register-plus p {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-left:20px;
+    font-size: 14px;
+    width: 500px;
+}
+
+.register .register-block .register-button-submit {
+    margin-top: 30px;
+    margin-bottom:80px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left:87px;
+    
+    
+    
+}
+
+.register .register-block .register-button-submit button {
+    background: #0E344B;
+    border-radius: 10px 0px 0px 10px;
+    border:none;
+    cursor: pointer;
+    padding:0.7em 12em ;
+    
+    
+    
+}
+
+.register .register-block .register-button-submit .register-big-button h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.6634px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.register .register-div-2 {
+    color:#FFFFFF;
+    background: #0E344B;
+    border-radius: 0px 67px 66px 0px;
+}
+
+.register .register-div-2 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding:100px 10px;
+}
